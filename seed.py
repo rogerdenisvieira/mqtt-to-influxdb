@@ -11,14 +11,16 @@ for i in range(1,13):
             {
                 "measurement": "metrics",
                 "tags": {
-                    "user": "jamal",
-                    "region": "sapucaia"
+                    "customer": "manolo",
+                    "state": "RS",
+                    "city": "sapucaia do sul"
                 },
                 "time": "2019-{}-{}T23:00:00Z".format(i,j),
                 "fields": {
                     "voltage": random.randint(200,221),
                     "current": random.randint(0,15),
-                    "flow": random.randint(0,7)
+                    "flow": random.randint(0,7),
+                    "battery_voltage": random.randint(11,12)
                 }
             }
         ]
